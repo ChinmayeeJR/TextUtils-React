@@ -1,0 +1,46 @@
+/* Accordion container */
+.accordion {
+    width: 100%;
+    margin-top: 10px;
+}
+
+/* Accordion items */
+.accordion-item {
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+/* Accordion heading */
+.accordion-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    cursor: pointer;
+    list-style: none;
+}
+
+/* Hide the default arrow */
+.accordion-header::-webkit-details-marker {
+    display: none;
+}
+
+/* Fix the oversized SVG arrow */
+.accordion-icon {
+    width: 16px;
+    height: 16px;
+    flex-shrink: 0;
+    transition: transform 0.2s ease;
+}
+
+/* Rotate arrow when accordion opens */
+.accordion-item[open] .accordion-icon {
+    transform: rotate(180deg);
+}
+
+/* Accordion content */
+.accordion-body {
+    padding: 15px;
+    line-height: 1.6;
+}
