@@ -11,9 +11,9 @@ return (
 <nav className={`navbar navbar-expand-lg navbar-${mode} bg-${mode}`}> <div className="container-fluid">
 
 
-            <a className="navbar-brand" href="/">
-                {title}
-            </a>
+            <a className="navbar-brand" href="/TextUtils-React/">
+                        {title}
+                   </a>
 
             <button
                 className="navbar-toggler"
@@ -31,7 +31,7 @@ return (
 
                 <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                     <li className="nav-item">
-                        <a className="nav-link active" href="/">
+                        <a className="nav-link active" href="/TextUtils-React/">
                             Home
                         </a>
                     </li>
